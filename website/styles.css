@@ -1,0 +1,28 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #333;
+}
+p {
+	line-height: 2.25em;
+}
+td {
+	text-align: left;
+	vertical-align: top;
+}
+.general-width {
+	width: 1000px;
+}
+.secondary-nav {
+	width: 300px;
+}
+.secondary-nav li {
+	list-style-type: none;
+}
+.class-links {
+	width: 25%;
+}
+.class-reflinks {
+	width: 50%;
+}
