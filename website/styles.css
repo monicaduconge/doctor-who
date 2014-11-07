@@ -3,6 +3,10 @@ body {
 	font-size: 16px;
 	font-weight: normal;
 	color: #333;
+	background-color: #3a0851;
+}
+table {
+	background-color: #FFF;
 }
 p {
 	line-height: 2.25em;
