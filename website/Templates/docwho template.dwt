@@ -12,6 +12,7 @@
 <!-- TemplateParam name="The Villains" type="boolean" value="false" -->
 <!-- TemplateParam name="Show History" type="boolean" value="false" -->
 <link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="dr who homepage" type="boolean" value="false" -->
 </head>
 
 <body>
@@ -25,7 +26,7 @@
 </table>
 <table class="general-width">
   <tr>
-    <td class="secondary-nav"><!-- TemplateBeginIf cond="_document['The Doctors Sub Menue']" -->
+    <td class="secondary-nav"><!-- TemplateBeginIf cond="_document['dr who homepage']" --><img src="../images/homepage/doctor_who_series_8.jpg" width="300" height="425" alt="doctor who"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['The Doctors Sub Menue']" -->
       <ul>
         <li><a href="../the-doctors/characters/the-first-doctor.html">The First Doctor</a></li>
         <li><a href="../the-doctors/characters/the-second-doctor.html">The Second Doctor</a></li>
@@ -41,7 +42,7 @@
         <li><a href="../the-doctors/characters/the-eleventh-doctor.html">The Eleventh Doctor</a></li>
         <li><a href="../the-doctors/characters/the-twelthf-doctor.html">The Twelth Doctor</a></li>
       </ul>
-    <!-- TemplateEndIf -->
+      <!-- TemplateEndIf -->
     <!-- TemplateBeginIf cond="_document['The Companions']" -->
     <ul>
       <li><a href="../companions/character/clara-oswald.html">Clara Oswald</a></li>
