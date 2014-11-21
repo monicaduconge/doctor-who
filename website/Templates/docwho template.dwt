@@ -27,7 +27,7 @@
 </table>
 <table class="general-width">
   <tr>
-    <td class="secondary-nav"><!-- TemplateBeginIf cond="_document['dr who homepage']" --><img src="../images/homepage/doctor_who_series_8.jpg" width="300" height="425" alt="doctor who"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['The Doctors Sub Menue']" -->
+    <td class="secondary-nav"><!-- TemplateBeginIf cond="_document['dr who homepage']" --><img src="../images/homepage/monica.jpg" width="299" height="292" alt="moni"><img src="../images/homepage/doctor_who_series_8.jpg" width="300" height="425" alt="doctor who"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['The Doctors Sub Menue']" -->
       <ul>
         <li><a href="../the-doctors/characters/the-first-doctor.html">The First Doctor</a></li>
         <li><a href="../the-doctors/characters/the-second-doctor.html">The Second Doctor</a></li>
