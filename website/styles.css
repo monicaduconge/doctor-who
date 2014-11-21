@@ -53,3 +53,26 @@ td {
 	border-bottom-color: #333333;
 	border-left-color: #63C;
 }
+.contentstuff {
+	padding-right: 20px;
+	padding-left: 15px;
+}
+.primarynav a {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	float: left;
+	margin-right: 50px;
+	margin-left: 5px;
+	background-color: #873a2a;
+	color: #FFF;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	border-radius: 10px;
+}
+.primarynav a:hover {
+	background-color: #154063;
+}
