@@ -15,12 +15,19 @@
 <!-- TemplateParam name="dr who homepage" type="boolean" value="false" -->
 <!-- TemplateParam name="show history banner" type="boolean" value="false" -->
 <!-- TemplateParam name="the doctors banner" type="boolean" value="true" -->
+<!-- TemplateParam name="tardis banner" type="boolean" value="false" -->
+<!-- TemplateParam name="tardis b" type="boolean" value="true" -->
+<!-- TemplateParam name="show hist b" type="boolean" value="true" -->
+<!-- TemplateParam name="villains b" type="boolean" value="true" -->
+<!-- TemplateParam name="comp b" type="boolean" value="true" -->
+<!-- TemplateParam name="home b" type="boolean" value="true" -->
+<!-- TemplateParam name="doctorsb" type="boolean" value="false" -->
 </head>
 
 <body>
 <table class="general-width">
   <tr>
-    <td><!-- TemplateBeginIf cond="_document['show history banner']" --><img src="../images/show histerrry/Doctor-Who-Banner-doctor-who-15571652-1340-539.jpg" width="1000" height="200" alt="showbanner"><!-- TemplateBeginIf cond="_document['the doctors banner']" --><img src="../images/banners/tardis-doctor-who.jpg" width="1000" height="200" alt="drwho"><!-- TemplateEndIf --><!-- TemplateEndIf --></td>
+    <td><!-- TemplateBeginIf cond="_document['tardis b']" --><img src="../images/banners/tardis-doctor-who.jpg" width="1000" height="200" alt="trd"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['doctorsb']" --><img src="../images/banners/the-doctorsb.jpg" width="1000" height="200" alt="drb"><!-- TemplateEndIf --></td>
   </tr>
   <tr>
     <td class="primarynav"><a href="../index.html">Home</a>  <a href="../the-doctors/index.html">The Doctors</a> <a href="../companions/index.html">The Companions</a> <a href="../the-villains/index.html">The Villains</a> <a href="../show-history/index.html">Show History</a></td>
