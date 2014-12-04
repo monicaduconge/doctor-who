@@ -14,12 +14,13 @@
 <link href="../styles.css" rel="stylesheet" type="text/css">
 <!-- TemplateParam name="dr who homepage" type="boolean" value="false" -->
 <!-- TemplateParam name="show history banner" type="boolean" value="false" -->
+<!-- TemplateParam name="the doctors banner" type="boolean" value="true" -->
 </head>
 
 <body>
 <table class="general-width">
   <tr>
-    <td><!-- TemplateBeginIf cond="_document['show history banner']" --><img src="../images/show histerrry/Doctor-Who-Banner-doctor-who-15571652-1340-539.jpg" width="1000" height="200" alt="showbanner"><!-- TemplateEndIf --></td>
+    <td><!-- TemplateBeginIf cond="_document['show history banner']" --><img src="../images/show histerrry/Doctor-Who-Banner-doctor-who-15571652-1340-539.jpg" width="1000" height="200" alt="showbanner"><!-- TemplateBeginIf cond="_document['the doctors banner']" --><img src="../images/banners/tardis-doctor-who.jpg" width="1000" height="200" alt="drwho"><!-- TemplateEndIf --><!-- TemplateEndIf --></td>
   </tr>
   <tr>
     <td class="primarynav"><a href="../index.html">Home</a>  <a href="../the-doctors/index.html">The Doctors</a> <a href="../companions/index.html">The Companions</a> <a href="../the-villains/index.html">The Villains</a> <a href="../show-history/index.html">Show History</a></td>
