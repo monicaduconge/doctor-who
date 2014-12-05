@@ -33,15 +33,7 @@
 <body>
 <table class="general-width">
   <tr>
-    <td><!-- TemplateBeginIf cond="thecompanionsbanners" --><img src="../images/banners/tardis-doctor-who.jpg" width="1000" height="200" alt="ctb"><!-- TemplateEndIf -->
-      <p>&nbsp;</p>
-    <!-- TemplateBeginIf cond="_document['thedoctorsbanners']" --><img src="../images/banners/the-doctorsb.jpg" width="1000" height="200" alt="drb"><!-- TemplateEndIf -->
-    <p>&nbsp;</p>
-    <!-- TemplateBeginIf cond="theshowhistorybanners" --><img src="../images/show histerrry/Doctor-Who-Banner-doctor-who-15571652-1340-539.jpg" width="1000" height="200" alt="thu"><!-- TemplateEndIf -->
-    <p>&nbsp;</p>
-    <!-- TemplateBeginIf cond="_document['thevillainsbanners']" --><img src="../images/banners/villainsb.jpg" width="1000" height="200" alt="vbr"><!-- TemplateEndIf -->
-    <p>&nbsp;</p>
-    <!-- TemplateBeginIf cond="_document['thehomepagedoctorbanners']" --><img src="../images/banners/the-doctors.jpg" width="1000" height="200" alt="hgh"><!-- TemplateEndIf --></td>
+    <td><!-- TemplateBeginIf cond="thecompanionsbanners" --><img src="../images/banners/tardis-doctor-who.jpg" width="1000" height="200" alt="ctb"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['thedoctorsbanners']" --><img src="../images/banners/the-doctorsb.jpg" width="1000" height="200" alt="drb"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="theshowhistorybanners" --><img src="../images/show histerrry/Doctor-Who-Banner-doctor-who-15571652-1340-539.jpg" width="1000" height="200" alt="thu"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['thevillainsbanners']" --><img src="../images/banners/villainsb.jpg" width="1000" height="200" alt="vbr"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['thehomepagedoctorbanners']" --><img src="../images/banners/the-doctors.jpg" width="1000" height="200" alt="hgh"><!-- TemplateEndIf --></td>
   </tr>
   <tr>
     <td class="primarynav"><a href="../index.html">Home</a>  <a href="../the-doctors/index.html">The Doctors</a> <a href="../companions/index.html">The Companions</a> <a href="../the-villains/index.html">The Villains</a> <a href="../show-history/index.html">Show History</a></td>
